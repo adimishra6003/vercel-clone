@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.generate = void 0;
 const MAX_LEN = 5;
 function generate() {
     let ans = "";
@@ -8,3 +10,4 @@ function generate() {
     }
     return ans;
 }
+exports.generate = generate;
